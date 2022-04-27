@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .topbar{
+            margin: auto;
+            height: 4px;
+            background-color: #bb0003;
+        }
+        .nav{
+            margin: auto;
+            height: 55px;
+            width: 100%;
+            background-color: white;
+            border-top: #e8171f;
+            line-height: 55px;
+            vertical-align: middle;
+            
+        }
+        h1{
+            margin: auto;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #e8171f;
+            font-size: 200%;
+            font-weight: lighter;
+        }
+        body{
+            background-color: #a7a7a8;
+
+        }
+        .main{
+            height: 550px;
+            background-color: white;
+            box-shadow: 0px 10px 10px 0px rgb(121, 112, 112);
+            margin: 5% 20% 10% 20%;
+        }
+        h3{
+            text-align: center;
+            margin-top: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700px;
+        }
+        .form-content{
+            width: 500px;
+            height: 200px;
+            padding: 32px;
+            margin: 0 auto  0 auto;
+            background-color: white;
+        }
+        .form_row{
+            padding: 10px;
+            display: flex;
+        }
+        .form_input{
+            flex: 1;
+            border-radius: 5px;
+            height: 40px;
+        }
+        .button{
+            max-width: 500px;
+            height: 200px;
+            padding: 32px;
+            margin: 0px auto 0 auto;
+        }
+        .button_layout{
+            padding: 10px;
+            display: flex;
+        }
+        .button_one{
+            height: 40px;
+            background-color: #e8171f;
+            flex: 1;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+        .button_two{
+            height: 40px;
+            background-color: #282525;
+            flex: 1;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+        .link{
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        a{
+            text-decoration: none;
+        }
+        hr{
+            width: 150px;
+        }   
+    </style>
+</head>
+<body>
+    <div class="topbar"></div>
+    <div class="nav">
+        <h1>Garena</h1>
+    </div>
+    <div class="main">
+        <div class="form-content">
+            <form class="form" action="">
+                <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:20px;">Đăng nhập</h3>
+                <div class="form_row"><input class="form_input" placeholder="Tài khoản ,Email hoặc số điện thoại" type="text"></div>
+                <div class="form_row"><input class="form_input" placeholder="Mật khẩu" type="password"></div>
+            </form>
+        </div>
+        <div class="button">
+            <div class="button_layout"><button class="button_one">Đăng nhập ngay</button></div>
+            <div class="button_layout"><hr>Hoặc<hr></div>
+            <div class="button_layout"><button class="button_two">tạo tài khoản mới</button></div>
+        </div>
+        <div class="link">
+            <a href="">Quên mật khẩu?</a>
+        </div>
+    </div>
+</body>
+</html>
